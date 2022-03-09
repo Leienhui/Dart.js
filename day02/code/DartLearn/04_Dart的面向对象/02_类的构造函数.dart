@@ -25,9 +25,9 @@ main(List<String> args) {
 }
 
 class Person {
-  String name;
-  int age;
-  double height;
+  late String name;
+  late int age;
+  late double height;
 
   Person(this.name, this.age);
   // Person(this.name, this.age, this.height);
